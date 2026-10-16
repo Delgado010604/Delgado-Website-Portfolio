@@ -1,0 +1,257 @@
+{
+  "navigation": [
+    {
+      "url": "index.html",
+      "label": "Overview"
+    },
+    {
+      "url": "projects.html",
+      "label": "Projects"
+    },
+    {
+      "url": "profile.html",
+      "label": "About"
+    },
+    {
+      "url": "techstack.html",
+      "label": "Toolkit"
+    },
+    {
+      "url": "certificates.html",
+      "label": "Credentials"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "himpawid",
+      "number": "01",
+      "name": "Himpawid",
+      "headline": "Air quality. Made understandable.",
+      "description": "A cross-platform mobile app that turns live environmental data into a clear picture of the air around you.",
+      "technologies": [
+        "Flutter",
+        "Firebase",
+        "Live APIs"
+      ],
+      "art": "air",
+      "features": [
+        "Live and forecast Air Quality Index",
+        "Color-coded pollution map and health guidance",
+        "An entire data pipeline built on real API sources"
+      ]
+    },
+    {
+      "slug": "trackguard",
+      "number": "02",
+      "name": "TrackGuard",
+      "headline": "Software meets the physical world.",
+      "description": "An ESP32-CAM autonomous robot car that combines navigation, sensing, and a live view of its surroundings.",
+      "technologies": [
+        "C++",
+        "ESP32-CAM",
+        "Embedded systems"
+      ],
+      "art": "robot",
+      "features": [
+        "Infrared line-following and ultrasonic obstacle avoidance",
+        "Live video streaming",
+        "Manual override through an infrared remote"
+      ]
+    },
+    {
+      "slug": "smartclassschedule",
+      "number": "03",
+      "name": "SmartClassSchedule",
+      "headline": "A little more order in student life.",
+      "description": "An Android app for managing classes, assignments, and exams, with timely reminders before classes begin.",
+      "technologies": [
+        "Kotlin",
+        "Android",
+        "Exact alarms"
+      ],
+      "art": "schedule",
+      "features": [
+        "Class schedules and tasks organized by subject",
+        "Exact-alarm notifications before classes start",
+        "Tabbed dashboard for schedules and pending work"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Certified Data Science Associate",
+      "issuer": "East West International Educational Specialists",
+      "date": "Dec 2025",
+      "category": "Data & AI",
+      "credential": "skZhIPZb",
+      "file": "Delgado Angel - CDSA Certificate.pdf"
+    },
+    {
+      "title": "Data Analysis with Python",
+      "issuer": "IBM SkillsBuild",
+      "date": "May 2026",
+      "category": "Data & AI",
+      "credential": "9bbd407202f54fb6af4247a188f9c4c9",
+      "file": "Delgado Angel - Data Analysis with Python - IBM SkillsBuild.pdf"
+    },
+    {
+      "title": "Data Visualization with Python",
+      "issuer": "IBM SkillsBuild",
+      "date": "May 2026",
+      "category": "Data & AI",
+      "credential": "e8535d67aeea49cb848c12bb9d1d208b",
+      "file": "Delgado Angel - Data Visualization with Python - IBM SkillsBuild.pdf"
+    },
+    {
+      "title": "Intro to Machine Learning",
+      "issuer": "Kaggle",
+      "date": "Mar 2026",
+      "category": "Data & AI",
+      "credential": "",
+      "file": "Delgado Angel - Intro to Machine Learning - Kaggle.png"
+    },
+    {
+      "title": "Python for Data Analysis",
+      "issuer": "Simplilearn",
+      "date": "Mar 2026",
+      "category": "Data & AI",
+      "credential": "10014736",
+      "file": "Delgado Angel - Python for Data Analysis - SimpliLearn Certificate.pdf"
+    },
+    {
+      "title": "Data Analyst 101",
+      "issuer": "Simplilearn",
+      "date": "Nov 2025",
+      "category": "Data & AI",
+      "credential": "9499335",
+      "file": "Delgado Angel - Data Analyst 101 - SimpliLearn Certificate.pdf"
+    },
+    {
+      "title": "Data Analytics Essentials",
+      "issuer": "Cisco Networking Academy",
+      "date": "Nov 2025",
+      "category": "Data & AI",
+      "credential": "",
+      "file": "Delgado Angel - Data Analytics Essentials - Cisco.pdf"
+    },
+    {
+      "title": "Introduction to Data Science",
+      "issuer": "Cisco Networking Academy",
+      "date": "Nov 2025",
+      "category": "Data & AI",
+      "credential": "",
+      "file": "Delgado Angel - Intro to Data Science - Cisco.pdf"
+    },
+    {
+      "title": "Network Defense",
+      "issuer": "Cisco Networking Academy",
+      "date": "May 2026",
+      "category": "Security & IoT",
+      "credential": "",
+      "file": "Delgado Angel - Network Defense - Cisco.pdf"
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "date": "May 2026",
+      "category": "Security & IoT",
+      "credential": "ee675ba3-b10d-43fe-858b-a308302752f1",
+      "file": "Delgado Angel - Introduction to Cybersecurity - Cisco.pdf"
+    },
+    {
+      "title": "Introduction to Cyber Security",
+      "issuer": "Simplilearn",
+      "date": "May 2026",
+      "category": "Security & IoT",
+      "credential": "10214918",
+      "file": "Delgado Angel - Introduction to Cyber Security - SimpliLearn Certificate.pdf"
+    },
+    {
+      "title": "Introduction to IoT",
+      "issuer": "Cisco Networking Academy",
+      "date": "Mar 2026",
+      "category": "Security & IoT",
+      "credential": "",
+      "file": "Delgado Angel - Introduction to IoT - Cisco.pdf"
+    },
+    {
+      "title": "Android App Development for Beginners",
+      "issuer": "Simplilearn",
+      "date": "Dec 2025",
+      "category": "Development",
+      "credential": "9541344",
+      "file": "Delgado Angel - Android App Development For Beginners - SimpliLearn Certificate.pdf"
+    },
+    {
+      "title": "JavaScript for Beginners",
+      "issuer": "Simplilearn",
+      "date": "Mar 2025",
+      "category": "Development",
+      "credential": "7983372",
+      "file": "Delgado Angel - JavaScript For Beginners - SimpliLearn Certificate.pdf"
+    }
+  ],
+  "toolkit": [
+    {
+      "number": "01",
+      "title": "Languages",
+      "items": [
+        "Java",
+        "Python",
+        "C",
+        "C++",
+        "C#",
+        "Dart",
+        "PHP",
+        "JavaScript",
+        "Kotlin",
+        "SQL"
+      ],
+      "description": "The building blocks for work across mobile, web, hardware, and data."
+    },
+    {
+      "number": "02",
+      "title": "Frameworks & libraries",
+      "items": [
+        "Flutter",
+        "React",
+        "Laravel",
+        "Tailwind CSS",
+        "Firebase"
+      ],
+      "description": "Tools for turning an idea into a working application."
+    },
+    {
+      "number": "03",
+      "title": "Mobile & web",
+      "items": [
+        "Android",
+        "HTML5",
+        "CSS3"
+      ],
+      "description": "Interfaces built for the devices people use every day."
+    },
+    {
+      "number": "04",
+      "title": "Data & machine learning",
+      "items": [
+        "Scikit-learn",
+        "Pandas"
+      ],
+      "description": "A growing toolkit for exploring data and training models."
+    },
+    {
+      "number": "05",
+      "title": "Tools & platforms",
+      "items": [
+        "Git",
+        "GitHub",
+        "Android Studio",
+        "VS Code",
+        "Arduino IDE",
+        "Firebase"
+      ],
+      "description": "The development environment behind the projects."
+    }
+  ]
+}

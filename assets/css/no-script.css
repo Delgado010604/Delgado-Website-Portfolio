@@ -1,0 +1,17 @@
+/* Keep mobile navigation available when JavaScript is disabled. */
+@media (max-width: 800px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+
+  .site-header nav {
+    display: flex;
+    position: static;
+    width: 100%;
+    border: 0;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
