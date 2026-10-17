@@ -207,7 +207,7 @@
         "Kotlin",
         "SQL"
       ],
-      "description": "The building blocks for work across mobile, web, hardware, and data."
+      "description": "Languages used or encountered in coursework and projects."
     },
     {
       "number": "02",
@@ -219,7 +219,7 @@
         "Tailwind CSS",
         "Firebase"
       ],
-      "description": "Tools for turning an idea into a working application."
+      "description": "Frameworks and libraries explored at different stages of my studies."
     },
     {
       "number": "03",
@@ -229,7 +229,7 @@
         "HTML5",
         "CSS3"
       ],
-      "description": "Interfaces built for the devices people use every day."
+      "description": "Web technologies and Android development covered in coursework or projects."
     },
     {
       "number": "04",
@@ -238,7 +238,7 @@
         "Scikit-learn",
         "Pandas"
       ],
-      "description": "A growing toolkit for exploring data and training models."
+      "description": "Foundational exposure through data analysis and introductory machine learning study."
     },
     {
       "number": "05",
@@ -251,7 +251,7 @@
         "Arduino IDE",
         "Firebase"
       ],
-      "description": "The development environment behind the projects."
+      "description": "Development tools I’ve used while learning and completing projects."
     }
   ]
 }

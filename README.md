@@ -18,8 +18,8 @@ Open http://127.0.0.1:8765. There are no build dependencies. The HTML pages can 
 - The existing `role.html` address remains available for education and areas of focus, linked from About.
 - All 14 supplied certificates except JPCS are stored in `assets/certificates/` and linked from the filterable credentials page.
 - CDSA displays December 2025 per the owner's correction. The supplied original PDF is unchanged.
-- The original resume is available from the download buttons.
-- Contact details and project descriptions follow the supplied resume. The contact form opens a draft in the visitor's email application; it does not send messages through a server.
+- The current revised resume is available from the download buttons. It lists five selected certifications; the website retains all 14.
+- Contact details and project descriptions follow the supplied resume. Role and toolkit descriptions reflect coursework and project familiarity. The contact form opens a draft in the visitor's email application; it does not send messages through a server.
 - Project illustrations are original schematic diagrams, not app screenshots or live telemetry.
 
 ## Editing
@@ -51,4 +51,4 @@ python build_portfolio.py --check
 
 To add a credential, copy its file into `assets/certificates/`, add an entry with its exact filename to `src/data/portfolio.json`, and regenerate the pages. Use an existing category, or update the filter buttons in `src/pages/certificates.html` when introducing a new one. JPCS files are rejected by the generator.
 
-Google Fonts supplies DM Sans and Space Grotesk, with local system fallbacks. Navigation, project content, and credential links work without JavaScript. JavaScript adds the mobile menu, credential filters, email copying, and email draft preparation. Reduced-motion preferences are respected.
+Google Fonts supplies DM Sans and Space Grotesk, with local system fallbacks. Navigation, project content, and credential links work without JavaScript. JavaScript adds the mobile menu, credential filters, email copying, and email draft preparation. The hero artwork responds subtly to pointer movement on desktop. Reduced-motion preferences are respected.

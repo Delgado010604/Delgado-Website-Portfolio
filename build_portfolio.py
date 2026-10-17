@@ -13,7 +13,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "src"
 PAGE_TITLES = {
-    "index.html": "Software developer",
+    "index.html": "Web Developer | UI/UX | Data Analytics",
     "projects.html": "Selected projects",
     "profile.html": "About",
     "role.html": "Education & focus",

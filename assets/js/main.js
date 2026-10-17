@@ -102,8 +102,38 @@
     });
   }
 
+  function initializeHeroInteraction() {
+    const artwork = document.querySelector('.hero-visual');
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!artwork) return;
+
+    let frame = 0;
+    function reset() {
+      cancelAnimationFrame(frame);
+      artwork.style.removeProperty('--pointer-x');
+      artwork.style.removeProperty('--pointer-y');
+    }
+
+    artwork.addEventListener('pointermove', event => {
+      if (!canHover.matches || reducedMotion.matches) return;
+      const bounds = artwork.getBoundingClientRect();
+      const x = (event.clientX - bounds.left) / bounds.width - 0.5;
+      const y = (event.clientY - bounds.top) / bounds.height - 0.5;
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        artwork.style.setProperty('--pointer-x', `${x * 12}px`);
+        artwork.style.setProperty('--pointer-y', `${y * 12}px`);
+      });
+    });
+    artwork.addEventListener('pointerleave', reset);
+    reducedMotion.addEventListener('change', reset);
+    canHover.addEventListener('change', reset);
+  }
+
   initializeNavigation();
   initializeCertificateFilters();
   initializeContact();
   updateCopyrightYear();
+  initializeHeroInteraction();
 })();
