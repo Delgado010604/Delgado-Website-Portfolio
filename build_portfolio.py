@@ -13,7 +13,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "src"
 PAGE_TITLES = {
-    "index.html": "Web Developer | UI/UX | Data Analytics",
+    "index.html": "BSIT Student | Data Analytics | Web Development | UI/UX",
     "projects.html": "Selected projects",
     "profile.html": "About",
     "role.html": "Education & focus",
@@ -72,6 +72,7 @@ def render_project(project, full=False):
         art=render(f'components/art-{project["art"]}.html'),
         number=text(project["number"]),
         technology=text(project["technologies"][0].upper()),
+        date=text(project["date"]),
         name=text(project["name"]),
         headline=text(project["headline"]),
         description=text(project["description"]),

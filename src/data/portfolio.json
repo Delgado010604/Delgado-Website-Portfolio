@@ -27,25 +27,26 @@
       "number": "01",
       "name": "Himpawid",
       "headline": "Air quality. Made understandable.",
-      "description": "A cross-platform mobile app that turns live environmental data into a clear picture of the air around you.",
+      "description": "A team-built Flutter and Firebase app displaying location-based air quality, pollutant readings, and a color-coded map using OpenWeatherMap data.",
       "technologies": [
         "Flutter",
         "Firebase",
-        "Live APIs"
+        "OpenWeatherMap"
       ],
       "art": "air",
       "features": [
-        "Live and forecast Air Quality Index",
-        "Color-coded pollution map and health guidance",
-        "An entire data pipeline built on real API sources"
-      ]
+        "Location-based air quality and pollutant readings",
+        "Color-coded map using OpenWeatherMap data",
+        "My contribution: coding and UI fixes, with development responsibilities shared across the team"
+      ],
+      "date": "December 2025"
     },
     {
       "slug": "trackguard",
       "number": "02",
       "name": "TrackGuard",
       "headline": "Software meets the physical world.",
-      "description": "An ESP32-CAM autonomous robot car that combines navigation, sensing, and a live view of its surroundings.",
+      "description": "A team-built ESP32-CAM robot car combining infrared line-following, ultrasonic obstacle avoidance, and live video streaming.",
       "technologies": [
         "C++",
         "ESP32-CAM",
@@ -54,27 +55,29 @@
       "art": "robot",
       "features": [
         "Infrared line-following and ultrasonic obstacle avoidance",
-        "Live video streaming",
-        "Manual override through an infrared remote"
-      ]
+        "Live video streaming and manual IR remote override",
+        "My contribution: coding and debugging as part of the project team"
+      ],
+      "date": "March 2026"
     },
     {
       "slug": "smartclassschedule",
       "number": "03",
       "name": "SmartClassSchedule",
       "headline": "A little more order in student life.",
-      "description": "An Android app for managing classes, assignments, and exams, with timely reminders before classes begin.",
+      "description": "A team-built Kotlin Android app for managing class schedules, assignments, and exams by subject, with scheduled class and task reminders.",
       "technologies": [
         "Kotlin",
         "Android",
-        "Exact alarms"
+        "Scheduled reminders"
       ],
       "art": "schedule",
       "features": [
-        "Class schedules and tasks organized by subject",
-        "Exact-alarm notifications before classes start",
-        "Tabbed dashboard for schedules and pending work"
-      ]
+        "Class schedules, assignments, and exams organized by subject",
+        "Scheduled class and task reminders",
+        "My contribution: UI development and coding, including a weekday-tabbed dashboard for classes and upcoming tasks"
+      ],
+      "date": "December 2025"
     }
   ],
   "certificates": [
@@ -213,11 +216,10 @@
       "number": "02",
       "title": "Frameworks & libraries",
       "items": [
-        "Flutter",
         "React",
+        "Flutter",
         "Laravel",
-        "Tailwind CSS",
-        "Firebase"
+        "Tailwind CSS"
       ],
       "description": "Frameworks and libraries explored at different stages of my studies."
     },
@@ -233,23 +235,23 @@
     },
     {
       "number": "04",
-      "title": "Data & machine learning",
+      "title": "Data analysis & machine learning",
       "items": [
-        "Scikit-learn",
-        "Pandas"
+        "Pandas",
+        "Scikit-learn"
       ],
-      "description": "Foundational exposure through data analysis and introductory machine learning study."
+      "description": "Python, SQL, and data analysis covered through coursework and training, with exposure to Pandas and Scikit-learn."
     },
     {
       "number": "05",
       "title": "Tools & platforms",
       "items": [
+        "Firebase",
         "Git",
         "GitHub",
         "Android Studio",
         "VS Code",
-        "Arduino IDE",
-        "Firebase"
+        "Arduino IDE"
       ],
       "description": "Development tools I’ve used while learning and completing projects."
     }
