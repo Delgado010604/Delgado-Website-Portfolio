@@ -51,4 +51,5 @@ python build_portfolio.py --check
 
 To add a credential, copy its file into `assets/certificates/`, add an entry with its exact filename to `src/data/portfolio.json`, and regenerate the pages. Use an existing category, or update the filter buttons in `src/pages/certificates.html` when introducing a new one. JPCS files are rejected by the generator.
 
-Google Fonts supplies DM Sans and Space Grotesk, with local system fallbacks. Navigation, project content, and credential links work without JavaScript. JavaScript adds the mobile menu, credential filters, email copying, and email draft preparation. The hero artwork responds subtly to pointer movement on desktop. Reduced-motion preferences are respected.
+Google Fonts supplies Silkscreen pixel headings and IBM Plex Mono body text, with local monospace fallbacks. The shared assets/css/pixel.css theme preserves the dark blue and cyan palette across every page. Navigation, project content, and credential links work without JavaScript. JavaScript adds the mobile menu, credential filters, email copying, and email draft preparation. The hero artwork responds subtly to pointer movement on desktop. Reduced-motion preferences are respected.
+
